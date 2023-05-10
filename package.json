@@ -1,0 +1,21 @@
+{
+  "name": "flight-prices",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "client": "cd client && npm start",
+    "server": "nodemon server.js"
+  },
+  "author": "ibr03",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.0.1",
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
+}

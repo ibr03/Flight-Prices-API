@@ -9,7 +9,7 @@ Basic Node.js app to fetch flight prices using Express and Axios.
 npm install
 
 # Run in development
-npm run serve
+npm run server
 ```
 ## Example Usage
 Go to http://localhost:5050/flights/DEL/BOM/2023-05-17 to get all flights from Delhi to Bombay for the date 17-05-2023, which returns data in the following form - 
